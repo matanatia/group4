@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-weight: 16px; 
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#side_menu {
+    padding: 10px;
+    width: 20%;
+    background: gray;
+}
+
+#main_menu {
+    width: 80%;
+    background: lightgray;
+    margin: 10 25%; 
+    text-align: center;
+}
+
+table {
+    width: 700px;
+}
+
+footer {
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
